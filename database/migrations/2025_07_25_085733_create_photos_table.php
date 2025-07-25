@@ -16,7 +16,9 @@ class CreatePhotosTable extends Migration
             //field list
             $table->increments('id');
             $table->Unsignedinteger('user_id');
+            $table->string('name');
             $table->timestamps();
+
             //index list
             $table->foreign('user_id')
                 ->references('id')
