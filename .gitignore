@@ -1,7 +1,6 @@
-/vendor
-/node_modules
-/public/storage
-Homestead.yaml
-Homestead.json
+/vendor/
+/.idea/
 .env
-/idea/
+*.log
+/node_modules/
+.phpunit.result.cache
